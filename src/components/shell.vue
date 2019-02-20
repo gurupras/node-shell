@@ -42,6 +42,7 @@ export default {
 
 <style lang="scss" scoped>
 .console {
+  font-family: 'Roboto Mono', monospace;
   text-align: left;
   background-color: black;
   color: #fff;
