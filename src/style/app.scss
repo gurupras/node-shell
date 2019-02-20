@@ -1,0 +1,11 @@
+@import '../node_modules/materialize-css/sass/components/color-variables';
+
+$light-background: rgb(250, 250, 250);
+$light-text: rgba(0, 0, 0, 0.87);
+
+$primary-color: #009688;
+$secondary-color: $primary-color;
+
+$white: #fff;
+
+@import '../node_modules/materialize-css/sass/materialize';

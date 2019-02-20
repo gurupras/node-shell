@@ -1,0 +1,3 @@
+http_port: 3114
+script: ./backend/forever-strings.sh
+proxy_path: &proxypath http://localhost:3114/

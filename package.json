@@ -9,6 +9,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "ansi_up": "^4.0.3",
+    "js-yaml": "^3.12.1",
+    "materialize-css": "^1.0.0",
+    "simple-websocket": "^7.2.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
