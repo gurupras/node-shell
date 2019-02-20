@@ -7,7 +7,7 @@
 import AnsiUp from 'ansi_up'
 
 export default {
-  name: 'shell',
+  name: 'console',
   props: ['socket'],
   data () {
     return {

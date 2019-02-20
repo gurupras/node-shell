@@ -7,7 +7,7 @@
 
     <div class="row">
       <div class="col s12 offset-m2 m8">
-        <v-shell style="height: 60vh" :socket="socket"/>
+        <v-console style="height: 60vh" :socket="socket"/>
       </div>
     </div>
   </div>
@@ -15,13 +15,13 @@
 
 <script>
 // @ is an alias to /src
-import Shell from '@/components/shell'
+import Console from '@/components/console'
 import SimpleSocket from 'simple-websocket'
 
 export default {
   name: 'home',
   components: {
-    'v-shell': Shell
+    'v-console': Console
   },
   data () {
     return {
