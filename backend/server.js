@@ -17,7 +17,7 @@ const wss = new SimpleWebsocketServer({
 wss.on('connection', socket => {
   console.log(`Received connection`)
 
-  socket.on('data', () => { // This is the ready signal. We don't expect any other data to come _from_ the client
+  socket.on('data', () => { // This is the ready signal. We don't expect any other data to come from the client
     // Spawn a long-running child process and send across it's output to this websocket
     const child = spawn('bash', [shellScriptPath])
     child.stdout.on('data', data => {
