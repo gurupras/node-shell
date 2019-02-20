@@ -5,30 +5,15 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run backend server
+```
+node run backend/server.js
+```
+
+### Compiles and hot-reloads the client for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Customize ports, scripts and other configuration
+Edit the `config.yaml` file and also see [Configuration Reference](https://cli.vuejs.org/config/).
